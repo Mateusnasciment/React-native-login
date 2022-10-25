@@ -16,7 +16,7 @@ const Finish = () => {
 				delay={300}
 				style={styles.containerHeader}
 			>
-				<Text style={styles.message}>Cadastre(se)</Text>
+				<Text style={styles.message}>Obrigado</Text>
 			</Animatable.View>
 
 			<Animatable.View
@@ -48,18 +48,9 @@ const styles = StyleSheet.create({
 		fontSize: 40,
 		marginTop: 48,
 	},
-	buttonText: {
-		color: "#fff",
-		fontSize: 28,
-		fontWeight: "center",	
-	},
-	buttonRegister: {
-		marginTop: 14,
-		alignSelf: "center",
-	},
 	registerText: {
 		color: "#9370DB",
 	},
 });
 
-export default SignIn;
+export default Finish;
